@@ -35,7 +35,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             exchange='',
             routing_key='lecture_queue',
             body=json.dumps(message_data),
-            properties=pika.BasicProperties(delivery_mode=2)  # Сделать сообщение persistent
+            properties=pika.BasicProperties(delivery_mode=2) 
         )
 
         connection.close()
