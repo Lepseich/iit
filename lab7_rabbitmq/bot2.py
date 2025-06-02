@@ -5,9 +5,9 @@ from telegram import Bot
 import time
 
 
-BOT_TOKEN = "8190072244:AAF3vrn-pnkRmqRUZk1Axh3pOpA-T_-ix_Q"
+BOT_TOKEN = ""
 
-YOUR_TELEGRAM_ID = 549924354
+YOUR_TELEGRAM_ID = 
 
 bot = Bot(token=BOT_TOKEN)
 
