@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 
-BOT_TOKEN = "7685394978:AAFuG7zIt8x2Aqbeq-ld1eWlPT15_G7la18"
+BOT_TOKEN = ""
 
 
 def connect_rabbitmq():
